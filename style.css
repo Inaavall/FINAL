@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'Speedy Font';
+  src: url(SpeedyRegular-7BLoE.ttf);
+}
+
+/* Don't change */
+html, body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+  margin-top: -22px;
+  background-color: #000000;
+
+  /* Center all on page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.rate {
+  padding-left: 5px;
+}
+.persons {
+  display: flex;
+  flex-wrap: wrap;
+ 
+  padding-bottom: 50px;
+}
+.person {
+  width: 33%;
+  color: #ffffff; 
+}
+.person img {
+padding-left: 100px;
+border-radius: 50%;
+}
+.top {
+
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Speedy Font' ;
+  padding: 40px;
+  font-weight: bold;
+}
+
+
+/* Movie background */
+.movie-background {
+  height: 98vh;
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+  background-image: url('./Images/Spiderman.jpg');
+  background-position: center;
+  background-size:contain;
+  background-repeat: no-repeat;
+}
+.Titel_and_Rating {
+  display: flex;
+  align-items: center;
+}
+
+/* Content on movie background */
+.trailer .container {
+ 
+  padding: 30px;
+  display: flex;
+}
+
+/* Cover */
+.trailer .container .cover img {
+  width: 210px;
+  position: relative;
+  bottom: 200px;
+}
+.youtube {
+display: flex;
+  justify-content: center ;
+  padding-top: 25px;
+  
+}
+
+/* Content */
+.trailer .container .content {
+  margin-bottom: -5px;
+}
+/* Paragraph only in movie bacground */
+.trailer .container .content p {
+  color: #ffffff;
+}
+
+/* List */
+.List {
+  display: flex;
+  width: 1040px;
+margin-top: 50px;
+color: #ffffff;
+
+}
+
+
+/* Rating */
+.rating {
+  display: flex;
+  align-items: center;
+margin-left: 13px
+;
+}
+
+/* Rating image */
+.rating .rate {
+  width: 40px;
+ 
+}
+
+/* Rating title */
+.rating h4 {
+  color: white;
+  font-size: 22px;
+}
+
+.rating .big {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+}
+
+
+/* Typography */
+h1 {
+  color: white;
+  font-family: 'Speedy Font', Speedy, monospace;
+}
+h4 {
+  color: rgb(144, 17, 17);
+  font-family: 'Speedy Font', Speedy, monospace;
+  display: block;
+  margin-block-start: 25px;
+  margin-block-end: -10px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-size: larger;
+  padding-left: 0px;
+ text-align: center;
+  text-shadow: 0 0 0px #ffffff, 0 0 4px #ffffff;
+}
+h5 {
+  color: #ffffff;
+}
+h6 {
+  padding-left: 0px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size:large;
+  margin-top: 0px;
+
+}
+.year {
+  color: white;
+}
